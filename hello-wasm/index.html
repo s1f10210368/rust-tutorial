@@ -1,0 +1,9 @@
+<body>
+    <script type="module">
+      import init, {say} from "./pkg/hello_wasm.js";
+      init()
+        .then(() => {
+          say("World")
+        });
+    </script>
+  </body>
